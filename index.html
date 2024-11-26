@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saad Shurfuddin - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="social-box left">
+        <a href="https://www.facebook.com/Loversofsaadrockstar/" target="_blank" class="social-link facebook">
+            <i class="fab fa-facebook"></i>
+            <span>Facebook</span>
+        </a>
+        <a href="https://github.com/saadshurfuddin" target="_blank" class="social-link github">
+            <i class="fab fa-github"></i>
+            <span>GitHub</span>
+        </a>
+    </div>
+
+    <div class="social-box right">
+        <a href="https://www.instagram.com/saad_shurfuddin/" target="_blank" class="social-link instagram">
+            <i class="fab fa-instagram"></i>
+            <span>Instagram</span>
+        </a>
+        <a href="https://www.youtube.com/@saadshurfuddin" target="_blank" class="social-link youtube">
+            <i class="fab fa-youtube"></i>
+            <span>YouTube</span>
+        </a>
+    </div>
+
+    <header class="header">
+        <h1>Saad Shurfuddin</h1>
+        <p class="tagline">Crafting solutions, one line of code at a time.</p>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#journey">Journey</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="saad.jpg" alt="Saad's Picture" class="profile-pic">
+                <p>
+                    I'm Saad Shurfuddin, a passionate software developer with a knack for crafting efficient 
+                    and scalable web and mobile applications. With a strong foundation in Java, Python, and 
+                    cutting-edge technologies like Flask and React, I thrive on solving complex problems.
+                </p>
+            </div>
+        </section>
+
+        <!-- Journey Section -->
+        <section id="journey" class="journey">
+            <h2>My Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>2024 - MCA at B.M.S College of Engineering</h3>
+                    <p>Mastered advanced topics in software engineering and worked on innovative projects.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>2024 - Internship at Belbird Technologies</h3>
+                    <p>Developed a home automation app and optimized app performance.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>2019 - Technical Content Writer</h3>
+                    <p>Authored engaging technical articles to explain complex concepts simply.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <div class="skill-bars">
+                <div class="skill">
+                    <label>JavaScript</label>
+                    <div class="bar"><div class="progress js"></div></div>
+                </div>
+                <div class="skill">
+                    <label>React</label>
+                    <div class="bar"><div class="progress react"></div></div>
+                </div>
+                <div class="skill">
+                    <label>Flask</label>
+                    <div class="bar"><div class="progress flask"></div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <div class="project-cards">
+                <div class="project-card">
+                    <h3>Smart Tech Hub</h3>
+                    <p>Flask-based dynamic website with Razorpay integration.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Mobile Shop</h3>
+                    <p>eCommerce application built with PHP for mobile shopping.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Human Age & Gender Prediction</h3>
+                    <p>Machine learning model using OpenCV and Keras for high-accuracy predictions.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Saad Shurfuddin. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
